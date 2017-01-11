@@ -1,0 +1,63 @@
+body{
+	background: linear-gradient(to bottom, #E0EAFC , #CFDEF3)no-repeat; 
+    background-size: 100%;
+    background-attachment: fixed;
+	font-family: Lato;
+	font-size: 17px;
+	color: white;
+}
+.navbar-collapse:link{ /* Nieodwiedzony link */
+	color: white;
+	/*background-color: yellow; */
+}
+.bor:visited{ /* Odwiedzony link */
+	color: white;
+}
+.bor:hover{ /* Link po najechaniu kurosorem */
+	font-color: red;
+	background-color: #E0EAFC;
+}
+.bor:active{
+	color: #E1E6FA;
+	background-color: black;
+	/*text-decoration: underline; <--podkreślenie tekstu */
+}
+.form-control /* wyszukiwarka */{
+	background-color: #E1E6FA;
+	border-color:#ABC8E2;
+}
+/* możemy napisać div container, ale jeśli tego nie zrobimy to
+nie musimy się ograniczać do jednego div container tylko możemy
+jednocześnie zmieniać wszystkie części o id containet */
+/* jeśli stosujemy # <-- jest to elementu unikatowy, niepowtarzalny
+   jeśli stojujemy . <-- jest to  zastosowanie klasy css, wówaczas w html musimy
+   zapisać div calss, a nie id="..." */
+/* klasa to zbiór cech które możemy wykorzystywać wielokrotnie */
+/*.container{
+	background: #C4D7ED;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+.navbar/*nawigacja*/{
+	background: #ABC8E2;
+	opacity: 0.8; /*nieprzezroczystosc wynosci 80% */
+}
+.logo{
+  	/*background: url(logo.png) no-repeat;*/
+  	position:absolute;
+  	color:white;
+  	height:50px;
+  	top:0px;
+  	left:0px;
+ }
+.navbar-toggle.collapsed{
+	opacity: 0.8;
+	position:absolute;
+}/* Cień do wyskakujących okienek */.shadow-off{	position: fixed;	width: 0;	height: 0;	z-index: -1;	visibility: hidden;	display: none;}.shadow-on{	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;	z-index: 50;	visibility: visible;	display: inline;
+	opacity: 0.5;}/* Wyskakujące okienko */.popup-off{	z-index: -1;	visibility: hidden;	display: none;}.popup-on{	z-index: 100;	visibility: visible;	display: block;}

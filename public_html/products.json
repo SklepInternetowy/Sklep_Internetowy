@@ -1,0 +1,30 @@
+[
+	{
+		"nazwa": "iphone",
+		"model": "7",
+	 	"pamiec": 128,
+	 	"opis": "Kup bo tak",
+	 	"cena": 2500
+	},
+	{
+		"nazwa": "iphone",
+		"model": "6s",
+	 	"pamiec": 64,
+	 	"opis": "Kup bo tak",
+	 	"cena": 1200
+	},
+	{
+		"nazwa": "Nokia",
+		"model": "3310",
+	 	"pamiec": 8,
+	 	"opis": "Kup bo tak",
+	 	"cena": 50
+	},
+	{
+		"nazwa": "Xaomi",
+		"model": "MI5",
+	 	"pamiec": 64,
+	 	"opis": "Fajniejszy niż iphone",
+	 	"cena": 500
+	}
+]

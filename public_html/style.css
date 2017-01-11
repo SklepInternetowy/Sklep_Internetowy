@@ -1,0 +1,52 @@
+/* Animacja do cienia */
+@keyframes shadowtrans{
+ from {opacity: 0;}
+ to {opacity: 0.65;}
+}
+/* Cień do wyskakujących okienek */
+#shadow-off{
+	position: fixed;
+	width: 0;
+	height: 0;
+	z-index: -1;
+	visibility: hidden;
+	display: none;
+}
+#shadow-on{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 50;
+	visibility: visible;
+	display: inline;
+	opacity: 0.65;
+	animation-name: shadowtrans;
+	animation-duration: 0.9s;
+}
+/* Wyskakujące okienko */
+.popup-off{
+	position: fixed;
+	z-index: -1;
+	visibility: hidden;
+	display: none;
+}
+.popup-on{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: #dddddd;
+	position: fixed;
+	z-index: 100;
+	visibility: visible;
+	display: block;
+	max-width: 300px;
+/* Centrowanie*/
+	top: 35vh;
+	left: 50vw;
+	transform: translate(-50%,-50%);
+}
